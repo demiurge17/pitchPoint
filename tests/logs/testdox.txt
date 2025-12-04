@@ -1,0 +1,54 @@
+Failed
+ [x] Failed file exists
+ [x] Failed updates transaction status
+ [x] Failed handles post request
+ [x] Failed displays failure message
+ [x] Failed provides retry option
+
+Gateway
+ [x] Gateway file exists
+ [x] Gateway requires post method
+ [x] Gateway requires authentication
+ [x] Gateway validates payment data
+ [x] Gateway creates investment
+ [x] Gateway creates transaction
+ [x] Gateway handles payment methods
+ [x] Gateway validates credit card
+ [x] Gateway validates bank transfer
+ [x] Gateway validates wallet
+ [x] Gateway validates other payment
+ [x] Gateway submits to success
+
+Payment
+ [x] Payment file exists
+ [x] Payment requires authentication
+ [x] Payment verifies investor role
+ [x] Payment validates project
+ [x] Payment creates investor if needed
+ [x] Payment displays form
+ [x] Payment includes dependencies
+
+Payment Validation
+ [x] Credit card number pattern
+ [x] Expiry date pattern
+ [x] C v v pattern
+ [x] Bank account number pattern
+ [x] Routing number pattern
+ [x] Wallet address pattern
+ [x] Payment details validation
+ [x] Name on card validation
+ [x] Amount validation
+
+Success
+ [x] Success file exists
+ [x] Success validates transaction
+ [x] Success validates payment data
+ [x] Success validates credit card data
+ [x] Success validates bank data
+ [x] Success validates wallet data
+ [x] Success validates other payment data
+ [x] Success updates transaction status
+ [x] Success redirects on failure
+ [x] Success displays transaction details
+ [x] Success fetches project info
+

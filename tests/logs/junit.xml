@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="D:\xampp\htdocs\pitchPoint\payment\tests" tests="44" assertions="155" errors="0" warnings="0" failures="0" skipped="0" time="0.552440">
+    <testsuite name="FailedTest" file="D:\xampp\htdocs\pitchPoint\payment\tests\FailedTest.php" tests="5" assertions="10" errors="0" warnings="0" failures="0" skipped="0" time="0.074619">
+      <testcase name="testFailedFileExists" class="FailedTest" classname="FailedTest" file="D:\xampp\htdocs\pitchPoint\payment\tests\FailedTest.php" line="30" assertions="1" time="0.003934"/>
+      <testcase name="testFailedUpdatesTransactionStatus" class="FailedTest" classname="FailedTest" file="D:\xampp\htdocs\pitchPoint\payment\tests\FailedTest.php" line="40" assertions="2" time="0.070185"/>
+      <testcase name="testFailedHandlesPostRequest" class="FailedTest" classname="FailedTest" file="D:\xampp\htdocs\pitchPoint\payment\tests\FailedTest.php" line="52" assertions="3" time="0.000205"/>
+      <testcase name="testFailedDisplaysFailureMessage" class="FailedTest" classname="FailedTest" file="D:\xampp\htdocs\pitchPoint\payment\tests\FailedTest.php" line="65" assertions="2" time="0.000160"/>
+      <testcase name="testFailedProvidesRetryOption" class="FailedTest" classname="FailedTest" file="D:\xampp\htdocs\pitchPoint\payment\tests\FailedTest.php" line="77" assertions="2" time="0.000135"/>
+    </testsuite>
+    <testsuite name="GatewayTest" file="D:\xampp\htdocs\pitchPoint\payment\tests\GatewayTest.php" tests="12" assertions="34" errors="0" warnings="0" failures="0" skipped="0" time="0.256600">
+      <testcase name="testGatewayFileExists" class="GatewayTest" classname="GatewayTest" file="D:\xampp\htdocs\pitchPoint\payment\tests\GatewayTest.php" line="32" assertions="1" time="0.000187"/>
+      <testcase name="testGatewayRequiresPostMethod" class="GatewayTest" classname="GatewayTest" file="D:\xampp\htdocs\pitchPoint\payment\tests\GatewayTest.php" line="42" assertions="2" time="0.254693"/>
+      <testcase name="testGatewayRequiresAuthentication" class="GatewayTest" classname="GatewayTest" file="D:\xampp\htdocs\pitchPoint\payment\tests\GatewayTest.php" line="54" assertions="2" time="0.000292"/>
+      <testcase name="testGatewayValidatesPaymentData" class="GatewayTest" classname="GatewayTest" file="D:\xampp\htdocs\pitchPoint\payment\tests\GatewayTest.php" line="66" assertions="5" time="0.000180"/>
+      <testcase name="testGatewayCreatesInvestment" class="GatewayTest" classname="GatewayTest" file="D:\xampp\htdocs\pitchPoint\payment\tests\GatewayTest.php" line="81" assertions="3" time="0.000170"/>
+      <testcase name="testGatewayCreatesTransaction" class="GatewayTest" classname="GatewayTest" file="D:\xampp\htdocs\pitchPoint\payment\tests\GatewayTest.php" line="94" assertions="3" time="0.000156"/>
+      <testcase name="testGatewayHandlesPaymentMethods" class="GatewayTest" classname="GatewayTest" file="D:\xampp\htdocs\pitchPoint\payment\tests\GatewayTest.php" line="107" assertions="4" time="0.000155"/>
+      <testcase name="testGatewayValidatesCreditCard" class="GatewayTest" classname="GatewayTest" file="D:\xampp\htdocs\pitchPoint\payment\tests\GatewayTest.php" line="121" assertions="5" time="0.000181"/>
+      <testcase name="testGatewayValidatesBankTransfer" class="GatewayTest" classname="GatewayTest" file="D:\xampp\htdocs\pitchPoint\payment\tests\GatewayTest.php" line="136" assertions="3" time="0.000115"/>
+      <testcase name="testGatewayValidatesWallet" class="GatewayTest" classname="GatewayTest" file="D:\xampp\htdocs\pitchPoint\payment\tests\GatewayTest.php" line="149" assertions="2" time="0.000170"/>
+      <testcase name="testGatewayValidatesOtherPayment" class="GatewayTest" classname="GatewayTest" file="D:\xampp\htdocs\pitchPoint\payment\tests\GatewayTest.php" line="161" assertions="2" time="0.000147"/>
+      <testcase name="testGatewaySubmitsToSuccess" class="GatewayTest" classname="GatewayTest" file="D:\xampp\htdocs\pitchPoint\payment\tests\GatewayTest.php" line="173" assertions="2" time="0.000154"/>
+    </testsuite>
+    <testsuite name="PaymentTest" file="D:\xampp\htdocs\pitchPoint\payment\tests\PaymentTest.php" tests="7" assertions="19" errors="0" warnings="0" failures="0" skipped="0" time="0.098121">
+      <testcase name="testPaymentFileExists" class="PaymentTest" classname="PaymentTest" file="D:\xampp\htdocs\pitchPoint\payment\tests\PaymentTest.php" line="31" assertions="1" time="0.000135"/>
+      <testcase name="testPaymentRequiresAuthentication" class="PaymentTest" classname="PaymentTest" file="D:\xampp\htdocs\pitchPoint\payment\tests\PaymentTest.php" line="41" assertions="3" time="0.097154"/>
+      <testcase name="testPaymentVerifiesInvestorRole" class="PaymentTest" classname="PaymentTest" file="D:\xampp\htdocs\pitchPoint\payment\tests\PaymentTest.php" line="54" assertions="2" time="0.000293"/>
+      <testcase name="testPaymentValidatesProject" class="PaymentTest" classname="PaymentTest" file="D:\xampp\htdocs\pitchPoint\payment\tests\PaymentTest.php" line="66" assertions="3" time="0.000119"/>
+      <testcase name="testPaymentCreatesInvestorIfNeeded" class="PaymentTest" classname="PaymentTest" file="D:\xampp\htdocs\pitchPoint\payment\tests\PaymentTest.php" line="79" assertions="3" time="0.000115"/>
+      <testcase name="testPaymentDisplaysForm" class="PaymentTest" classname="PaymentTest" file="D:\xampp\htdocs\pitchPoint\payment\tests\PaymentTest.php" line="92" assertions="4" time="0.000164"/>
+      <testcase name="testPaymentIncludesDependencies" class="PaymentTest" classname="PaymentTest" file="D:\xampp\htdocs\pitchPoint\payment\tests\PaymentTest.php" line="106" assertions="3" time="0.000141"/>
+    </testsuite>
+    <testsuite name="PaymentValidationTest" file="D:\xampp\htdocs\pitchPoint\payment\tests\PaymentValidationTest.php" tests="9" assertions="63" errors="0" warnings="0" failures="0" skipped="0" time="0.003196">
+      <testcase name="testCreditCardNumberPattern" class="PaymentValidationTest" classname="PaymentValidationTest" file="D:\xampp\htdocs\pitchPoint\payment\tests\PaymentValidationTest.php" line="13" assertions="8" time="0.000545"/>
+      <testcase name="testExpiryDatePattern" class="PaymentValidationTest" classname="PaymentValidationTest" file="D:\xampp\htdocs\pitchPoint\payment\tests\PaymentValidationTest.php" line="56" assertions="9" time="0.000091"/>
+      <testcase name="testCVVPattern" class="PaymentValidationTest" classname="PaymentValidationTest" file="D:\xampp\htdocs\pitchPoint\payment\tests\PaymentValidationTest.php" line="87" assertions="6" time="0.000057"/>
+      <testcase name="testBankAccountNumberPattern" class="PaymentValidationTest" classname="PaymentValidationTest" file="D:\xampp\htdocs\pitchPoint\payment\tests\PaymentValidationTest.php" line="115" assertions="6" time="0.000048"/>
+      <testcase name="testRoutingNumberPattern" class="PaymentValidationTest" classname="PaymentValidationTest" file="D:\xampp\htdocs\pitchPoint\payment\tests\PaymentValidationTest.php" line="145" assertions="5" time="0.000044"/>
+      <testcase name="testWalletAddressPattern" class="PaymentValidationTest" classname="PaymentValidationTest" file="D:\xampp\htdocs\pitchPoint\payment\tests\PaymentValidationTest.php" line="174" assertions="7" time="0.000058"/>
+      <testcase name="testPaymentDetailsValidation" class="PaymentValidationTest" classname="PaymentValidationTest" file="D:\xampp\htdocs\pitchPoint\payment\tests\PaymentValidationTest.php" line="203" assertions="5" time="0.000033"/>
+      <testcase name="testNameOnCardValidation" class="PaymentValidationTest" classname="PaymentValidationTest" file="D:\xampp\htdocs\pitchPoint\payment\tests\PaymentValidationTest.php" line="230" assertions="7" time="0.000047"/>
+      <testcase name="testAmountValidation" class="PaymentValidationTest" classname="PaymentValidationTest" file="D:\xampp\htdocs\pitchPoint\payment\tests\PaymentValidationTest.php" line="259" assertions="10" time="0.002272"/>
+    </testsuite>
+    <testsuite name="SuccessTest" file="D:\xampp\htdocs\pitchPoint\payment\tests\SuccessTest.php" tests="11" assertions="29" errors="0" warnings="0" failures="0" skipped="0" time="0.119904">
+      <testcase name="testSuccessFileExists" class="SuccessTest" classname="SuccessTest" file="D:\xampp\htdocs\pitchPoint\payment\tests\SuccessTest.php" line="30" assertions="1" time="0.000073"/>
+      <testcase name="testSuccessValidatesTransaction" class="SuccessTest" classname="SuccessTest" file="D:\xampp\htdocs\pitchPoint\payment\tests\SuccessTest.php" line="40" assertions="3" time="0.118722"/>
+      <testcase name="testSuccessValidatesPaymentData" class="SuccessTest" classname="SuccessTest" file="D:\xampp\htdocs\pitchPoint\payment\tests\SuccessTest.php" line="53" assertions="5" time="0.000227"/>
+      <testcase name="testSuccessValidatesCreditCardData" class="SuccessTest" classname="SuccessTest" file="D:\xampp\htdocs\pitchPoint\payment\tests\SuccessTest.php" line="68" assertions="5" time="0.000126"/>
+      <testcase name="testSuccessValidatesBankData" class="SuccessTest" classname="SuccessTest" file="D:\xampp\htdocs\pitchPoint\payment\tests\SuccessTest.php" line="83" assertions="2" time="0.000106"/>
+      <testcase name="testSuccessValidatesWalletData" class="SuccessTest" classname="SuccessTest" file="D:\xampp\htdocs\pitchPoint\payment\tests\SuccessTest.php" line="95" assertions="1" time="0.000167"/>
+      <testcase name="testSuccessValidatesOtherPaymentData" class="SuccessTest" classname="SuccessTest" file="D:\xampp\htdocs\pitchPoint\payment\tests\SuccessTest.php" line="106" assertions="1" time="0.000103"/>
+      <testcase name="testSuccessUpdatesTransactionStatus" class="SuccessTest" classname="SuccessTest" file="D:\xampp\htdocs\pitchPoint\payment\tests\SuccessTest.php" line="117" assertions="3" time="0.000098"/>
+      <testcase name="testSuccessRedirectsOnFailure" class="SuccessTest" classname="SuccessTest" file="D:\xampp\htdocs\pitchPoint\payment\tests\SuccessTest.php" line="130" assertions="2" time="0.000093"/>
+      <testcase name="testSuccessDisplaysTransactionDetails" class="SuccessTest" classname="SuccessTest" file="D:\xampp\htdocs\pitchPoint\payment\tests\SuccessTest.php" line="142" assertions="4" time="0.000097"/>
+      <testcase name="testSuccessFetchesProjectInfo" class="SuccessTest" classname="SuccessTest" file="D:\xampp\htdocs\pitchPoint\payment\tests\SuccessTest.php" line="156" assertions="2" time="0.000092"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
