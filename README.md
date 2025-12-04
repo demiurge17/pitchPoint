@@ -2,6 +2,10 @@
 
 A comprehensive web-based platform connecting entrepreneurs with investors, enabling project pitching, investment management, and collaboration.
 
+!!!High Importence!!!
+Change the name of the name of the Downloaded Zip file from "pitchPoint-main" to "pitchPoint"
+
+
 ## Overview
 
 PitchPoint is a multi-role application that facilitates the connection between entrepreneurs and investors. Entrepreneurs can create and manage projects, pitch their ideas, and receive investments. Investors can explore projects, express interest, make investments, and communicate with entrepreneurs. The platform also includes administrative and staff interfaces for managing the system.
@@ -297,6 +301,7 @@ Common helper functions available:
 - Check base URL configuration in `functions.php`
 - Verify file paths are correct
 - Clear browser cache
+
 
 
 
